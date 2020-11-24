@@ -1,17 +1,16 @@
 <html>
     <head>
-        <title>Books Library</title>
+        <title>Movies Library</title>
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <header>Books Library</header>
+        <header>Movies Library</header>
 
-        <#list books as id, book>
+        <#list movies as movie>
             <section>
-                <p>Id: ${id}</p>
-                <p>Title: ${book.title}</p>
-                <p>Author: ${book.author}</p>
-                <p>Pages: ${book.pages}</p>
+                <p>Title: ${movie.title}</p>
+                <p>Director: ${movie.director}</p>
+                <p>Year: ${movie.year}</p>
                 <a class="delete" href="#">Delete</a>
             </section>
         </#list>
