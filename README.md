@@ -1,5 +1,7 @@
-# HW-02
+# SparkApp
 
-Author: Student Name
+Author: Berend Gort
 
-![HW-02](https://github.com/vasart/potential-happiness/workflows/HW-02/badge.svg)
+Description: A full stack SparkApp connected to a MongoDB database and a HTLM page
+
+![All_my_Java_Hw](https://github.com/Burntt/My_First_Spark_App/workflows/All_my_Java_Hw/badge.svg)
