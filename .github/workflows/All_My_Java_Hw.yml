@@ -5,7 +5,7 @@ name: All_my_Java_Hw
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
